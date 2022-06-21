@@ -1,3 +1,8 @@
+body {
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
 .circle {
   width: 40px;
   height: 40px;
@@ -5,7 +10,7 @@
   background-color: black;
 }
 
-#main {
+#horizontal {
   width: 100%;
   height: 50px;
 }
@@ -13,8 +18,9 @@
 #first {
   background-color: red;
   width: calc(100% / 3);
+  height: 100%;
   float: left;
-  border: 1px, solid, black;
+
   height: 100%;
   margin: 0 auto;
   display: flex;
@@ -40,9 +46,10 @@
 
 img {
   width: 50px;
+
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-items: center;
   margin: 0 auto;
   padding: 5px;
 }
@@ -56,16 +63,26 @@ iframe {
   justify-content: center;
 }
 
-.vertical {
- width: 100%;
- height: 50%;
+.verticalparent {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+}
 
+.vertical {
+  width: calc(100% / 3);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .vertical-1 {
   background-color: red;
-  height: auto;
-  width: auto;
+  width: 100%;
+  height: calc(100% / 3);
   display: flex;
   float: center;
   align-items: center;
@@ -74,8 +91,8 @@ iframe {
 
 .vertical-2 {
   background-color: yellow;
-  width: auto;
-  height: auto;
+  width: 100%;
+  height: calc(100% / 3);
   display: flex;
   float: center;
   align-items: center;
@@ -84,8 +101,8 @@ iframe {
 
 .vertical-3 {
   background-color: green;
-  width: auto;
-  height: auto;
+  width: 100%;
+  height: calc(100% / 3);
   display: flex;
   float: center;
   align-items: center;
