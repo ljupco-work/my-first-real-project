@@ -2,3 +2,27 @@ body {
   padding: 0 auto;
   margin: 0 auto;
 }
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.img1 {
+  display: flex;
+  float: left;
+  width: 100px;
+}
+
+.img2 {
+  display: flex;
+  float: left;
+  width: 100px;
+  height: 150px;
+}
+
+.img3 {
+  display: flex;
+  float: left;
+  width: 100px; 
+}
