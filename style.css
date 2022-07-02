@@ -4,14 +4,15 @@ body {
 }
 
 img {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
 }
 
 .img1 {
   display: flex;
   float: left;
-  width: 100px;
+  width: 150px;
+  height: 150px;
 }
 
 .img2 {
@@ -25,4 +26,23 @@ img {
   display: flex;
   float: left;
   width: 100px; 
+  height: 150px;
+}
+
+.skopje {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+
+.bitola {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: oblique;
+}
+
+.ohrid {
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: normal;
 }
