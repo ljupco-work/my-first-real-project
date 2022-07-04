@@ -2,3 +2,54 @@ body {
   padding: 0 auto;
   margin: 0 auto;
 }
+
+img {
+  width: 150px;
+  height: 150px;
+}
+
+.img1 {
+  display: flex;
+  float: left;
+  width: 150px;
+  height: 150px;
+}
+
+.img2 {
+  display: flex;
+  float: left;
+  width: 100px;
+  height: 150px;
+}
+
+.img3 {
+  display: flex;
+  float: left;
+  width: 100px; 
+  height: 150px;
+}
+
+.skopje {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+
+.bitola {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: oblique;
+}
+
+.ohrid {
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: normal;
+}
+
+.footer {
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  border: 1px solid black;
+}
